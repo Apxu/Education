@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
+
+int main(void){
+	uint32_t n, m;
+
+	while (scanf ("%u", &n) != EOF){
+
+		if (n == 0){
+			break;
+		}
+		
+		while (n > 9){
+			m = n % 10;
+			n = n / 10;
+			n = m + n;
+		}
+		
+		printf ("%u\n", n);
+
+	}
+		
+}
