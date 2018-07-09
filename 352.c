@@ -11,109 +11,97 @@
 #include <set>
 using namespace std;
 
-int M, N, king_row, king_column, landSize, bestLandSize;
-char land_character;
-char map[21][21];
-bool visited[21][21];
+char map[26][26];
+bool visited[26][26];
+int war_eagles;
 
-int searching (int king_row, int king_column){
+void printMap(int N){
+	// Print Map
+	cout << "N: " << N << endl;
+	cout << " " << "| 0 1 2 3 4 5 6 7 8 9" << endl;
+	cout << "_________________________" << endl;
+	for (int i = 0; i < N; i++){
+		cout << i << "| ";
+		for (int j = 0; j < N; j++){
+			cout << map[i][j] << " ";
+		}
+		cout << endl;
+	}
+}
+
+void searching (int row, int column, int N){
 	
-	int counter = 1;
 	queue< pair <int,int> > moves;
-	moves.push( make_pair(king_row, king_column));
+	moves.push( make_pair(row, column));
 	
 	while (!moves.empty()){
 		
-		// cout << "Moves queue not empty" << endl;
-		
 		pair<int, int > coords = moves.front();
 		moves.pop();
-		int king_row = coords.first;
-		int king_column = coords.second;
-		visited[king_row][king_column] = true;
+		int row = coords.first;
+		int column = coords.second;
+		visited[row][column] = true;
+		map[row][column] = '0'+war_eagles+1;
 		
 		// Move Up
-		if (king_row-1 >= 0 && !visited[king_row-1][king_column] && map[king_row-1][king_column] == land_character){
-			
-			visited[king_row-1][king_column] = true;
-			counter++;
-			moves.push( make_pair(king_row-1, king_column));
-			// cout << "Move UP" << endl;
-			
+		if (row-1 >= 0 && !visited[row-1][column] && map[row-1][column] == '1'){
+			moves.push( make_pair(row-1, column));
 		}
 		
 		//Move Down
-		if (king_row+1 < N && !visited[king_row+1][king_column] && map[king_row+1][king_column] == land_character){
-			
-			visited[king_row+1][king_column] = true;
-			counter++;
-			moves.push( make_pair(king_row+1, king_column));
-			// cout << "Move DOWN" << endl;
-			
+		if (row+1 < N && !visited[row+1][column] && map[row+1][column] == '1'){
+			moves.push( make_pair(row+1, column));
 		}
 		
 		//Move Left
-		if (king_column-1 >= 0 && !visited[king_row][king_column-1] && map[king_row][king_column-1] == land_character){
-			
-			visited[king_row][king_column-1] = true;
-			counter++;
-			moves.push( make_pair(king_row, king_column-1));
-			// cout << "Move LEFT" << endl;
-			
+		if (column-1 >= 0 && !visited[row][column-1] && map[row][column-1] == '1'){
+			moves.push( make_pair(row, column-1));
 		}
 		
 		//Move Right
-		if (king_column+1 < M && !visited[king_row][king_column+1] && map[king_row][king_column+1] == land_character){
-			
-			visited[king_row][king_column+1] = true;
-			counter++;
-			moves.push( make_pair(king_row, king_column+1));
-			// cout << "Move RIGHT" << endl;
-			
+		if (column+1 < N && !visited[row][column+1] && map[row][column+1] == '1'){
+			moves.push( make_pair(row, column+1));
 		}
 		
-		//Move from Right to Left
-		// cout << "king_column-1 = " << king_column-1 << endl;
-		// cout << "Is it visited? - " << visited[king_row][M-1] << endl;
-		// cout << "Character on map[" << king_row << "][" << M-1 << "] = " << map[king_row][M-1] << endl;
-		
-		if (king_column-1 < 0 && !visited[king_row][M-1] && map[king_row][M-1] == land_character){
-			
-			visited[king_row][M-1] = true;
-			counter++;
-			moves.push( make_pair(king_row, M-1));
-			// cout << "Jump from LEFT to RIGHT" << endl;
-			
+		//Move to TopLeft
+		if (row-1 >= 0 && column-1 >= 0 && !visited[row-1][column-1] && map[row-1][column-1] == '1'){
+			moves.push( make_pair(row-1, column-1));
 		}
 		
-		//Move from Left to Right
-		if (king_column+1 > M && !visited[king_row][0] && map[king_row][0] == land_character){
-			
-			visited[king_row][0] = true;
-			counter++;
-			moves.push( make_pair(king_row, 0));
-			// cout << "Jump from RIGHT to LEFT" << endl;
-			
+		//Move to TopRight
+		if (row-1 >= 0 && column+1 < N && !visited[row-1][column+1] && map[row-1][column+1] == '1'){
+			moves.push( make_pair(row-1, column+1));
+		}
+		
+		//Move to BottomLeft
+		if (row+1 < N && column-1 >= 0 && !visited[row+1][column-1] && map[row+1][column-1] == '1'){
+			moves.push( make_pair(row+1, column-1));
+		}
+		
+		//Move to BottomRight
+		if (row+1 >= 0 && column+1 < N && !visited[row+1][column+1] && map[row+1][column+1] == '1'){
+			moves.push( make_pair(row+1, column+1));
 		}
 
 	}
 	
-	return counter;
+	return;
 	
 }
 
 
 int main(void) {
 	
-	while (cin >> N >> M){
+	int case_counter = 0;
+	int N;
 	
-		bestLandSize = 0;
-		
-		// cout << "N: " << N << endl;
-		// cout << "M: " << M << endl;
+	while (cin >> N){
+	
+		case_counter++;
+		war_eagles = 0;
 		
 		for (int i = 0; i < N; i++){
-			for (int j = 0; j < M; j++){
+			for (int j = 0; j < N; j++){
 				
 				cin >> map[i][j];
 				visited[i][j] = false;
@@ -121,44 +109,20 @@ int main(void) {
 			}
 		}
 		
-		//Print Map
-		// for (int i = 0; i < N; i++){
-			// for (int j = 0; j < M; j++){
-				
-				// cout << map[i][j];
-				
-			// }
-			// cout << endl;
-		// }
-		
-		cin >> king_row >> king_column;
-		// cout << "King row: " << king_row << endl;
-		// cout << "King column: " << king_column << endl;
-		land_character = map[king_row][king_column];
-		
-		// cout << "Land character: " << land_character << endl;
-		
-		searching(king_row, king_column);
-		
 		for (int i = 0; i < N; i++){
-			for (int j = 0; j < M; j++){
+			for (int j = 0; j < N; j++){
 				
-				if (map[i][j] == land_character && !visited[i][j]){
-					// cout << "Find new start for searching" << endl;
-					// cout << "Start searching coordinates: " << i << " " << j << endl;
-					landSize = searching(i, j);
-					// cout << "Land size: " << landSize << endl;
-					
-					if (landSize > bestLandSize) {
-						bestLandSize = landSize;
-					}
+				if (map[i][j] == '1' && !visited[i][j]){
+
+					searching(i, j, N);
+					war_eagles++;
 					
 				}
 				
 			}
 		}
-		
-		cout << bestLandSize << endl;
+		// printMap (N);
+		cout << "Image number " << case_counter << " contains " << war_eagles << " war eagles." << endl;
 	
 	}
 	return 0;
