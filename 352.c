@@ -121,7 +121,7 @@ int main(void) {
 				
 			}
 		}
-		// printMap (N);
+		printMap (N);
 		cout << "Image number " << case_counter << " contains " << war_eagles << " war eagles." << endl;
 	
 	}
