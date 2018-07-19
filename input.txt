@@ -16,15 +16,15 @@ __________
        XXXXXXXXXX
 
 __________
-
-       XXXXXXXXXX
- *    XXXX       XX
-      X            X
-     X      X      XXXXXXX
-     XXXXXXXX             XX
-     X      X      XXXXXXX
-      X            X
-      XXXX       XX
-       XXXXXXXXXX
-
+                  
+       XXXXXXXXXX            
+ *    XXXX       XX         
+      X            X         
+     X      X      XXXXXXX 
+     XXXXXXXX             XX 
+     X      X      XXXXXXX 
+      X            X          
+      XXXX       XX         
+       XXXXXXXXXX            
+                  
 __________
