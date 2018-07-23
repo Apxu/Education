@@ -1,30 +1,14 @@
-3
-XXXXXXX
-X  *  X
-XXXXXXX
-
-__________
-
-       XXXXXXXXXX
-      XXXX       XX
-      X            X
-     X      X      XXXXXXX
-     XXXXXXXX             XX
-     X      X      XXXXXXX
-      X            X
-      XXXX      *XX
-       XXXXXXXXXX
-
-__________
-                  
-       XXXXXXXXXX            
- *    XXXX       XX         
-      X            X         
-     X      X      XXXXXXX 
-     XXXXXXXX             XX 
-     X      X      XXXXXXX 
-      X            X          
-      XXXX       XX         
-       XXXXXXXXXX            
-                  
-__________
+10 10
+9
+0 1 2
+1 1 2
+2 2 2 9
+3 2 1 7
+5 3 3 6 9
+6 4 0 1 2 7
+7 3 0 3 8
+8 2 7 9
+9 3 2 3 4
+0 0
+9 9
+0 0

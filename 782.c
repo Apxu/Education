@@ -12,20 +12,18 @@
 #include <string>
 using namespace std;
 
-char map[30][80];
-bool visited[30][80];
+char map[50][100];
+bool visited[50][100];
 int row_counter;
-int string_length[30];
+int string_length[50];
 char edge_char;
 
 void printMap(){
 
 	// Print Map
 	for (int i = 0; i < row_counter; i++){
-		for (int j = 0; j < string_length[i]; j++){
-			cout << map[i][j];
-		}
-		cout << endl;
+		string output = string(map[i], map[i] + 99);
+		cout << output.substr(0, output.find_last_not_of(' ') + 1) << endl;
 	}
 }
 
@@ -53,6 +51,8 @@ void painting (int row, int column){
 		if (is_paintable(row, column)){
 			map[row][column] = '#';
 		}
+		
+		// printMap();
 
 		//Move UP
 		if (row-1 >= 0 && !visited[row-1][column] && map[row-1][column] != edge_char){
@@ -73,7 +73,7 @@ void painting (int row, int column){
 		}
 		
 		//Moves RIGHT
-		if (column+1 < string_length[row] && !visited[row][column+1] && map[row][column+1] != edge_char){
+		if (column+1 < 99 && !visited[row][column+1] && map[row][column+1] != edge_char){
 			moves.push( make_pair(row, column+1));
 			visited[row][column+1] = true;
 		}
@@ -94,8 +94,8 @@ int main(void) {
 		start_row = 0;
 		start_column = 0;
 		
-		for (int k = 0; k < 30; k++){
-			for (int l = 0; l < 80; l++){
+		for (int k = 0; k < 50; k++){
+			for (int l = 0; l < 100; l++){
 				map[k][l] = ' ';
 				visited[k][l] = false;
 			}
@@ -105,6 +105,10 @@ int main(void) {
 			
 			getline(cin, input);
 			string_length[row_counter] = input.length();
+			
+			if (input[0] == '_'){
+				break;
+			}
 			
 			for (int j = 0; j < string_length[row_counter]; j++){
 				map[row_counter][j] = input[j];
@@ -121,10 +125,6 @@ int main(void) {
 			}
 			
 			row_counter++;
-			
-			if (input[0] == '_'){
-				break;
-			}
 
 		}
 		
@@ -132,6 +132,7 @@ int main(void) {
 		// cout << "Start row: " << start_row << " Start column: " << start_column << endl;
 		painting(start_row, start_column);
 		printMap();
+		cout << input << endl;
 		
 	}
 	

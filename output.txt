@@ -1,29 +1,78 @@
-XXXXXXX
-X#####X
-XXXXXXX
-
-__________
-
-       XXXXXXXXXX
-      XXXX#######XX
-      X###  #    ##X
-     X######X#    #XXXXXXX
-     XXXXXXXX#     #######XX
-     X######X#    #XXXXXXX
-      X###  #    ##X
-      XXXX#######XX
-       XXXXXXXXXX
-
-__________
-       ########## 
-      #XXXXXXXXXX##          
-     #XXXX       XX#        
-     #X            X######   
-    #X      X      XXXXXXX#
-    #XXXXXXXX             XX#
-    #X      X      XXXXXXX#
-     #X            X######    
-     #XXXX       XX#        
-      #XXXXXXXXXX##          
-       ########## 
-__________
+Number of moves = 0
+Number of moves = 0
+Number of moves = 1
+Number of moves = 2
+Number of moves = 3
+Number of moves = 4
+Number of moves = 5
+Number of moves = 6
+Number of moves = 7
+Number of moves = 8
+Number of moves = 9
+Number of moves = 10
+Number of moves = 11
+Number of moves = 12
+Number of moves = 13
+Number of moves = 14
+Number of moves = 15
+Number of moves = 16
+Number of moves = 17
+Number of moves = 18
+Number of moves = 19
+Number of moves = 20
+Number of moves = 21
+Number of moves = 22
+Number of moves = 23
+Number of moves = 24
+Number of moves = 25
+Number of moves = 26
+Number of moves = 27
+Number of moves = 28
+Number of moves = 29
+Number of moves = 30
+Number of moves = 31
+Number of moves = 32
+Number of moves = 33
+Number of moves = 34
+Number of moves = 35
+Number of moves = 36
+Number of moves = 37
+Number of moves = 38
+Number of moves = 39
+Number of moves = 40
+Number of moves = 41
+Number of moves = 42
+Number of moves = 43
+Number of moves = 44
+Number of moves = 45
+Number of moves = 46
+Number of moves = 47
+Number of moves = 48
+Number of moves = 49
+Number of moves = 50
+Number of moves = 51
+Number of moves = 52
+Number of moves = 53
+Number of moves = 54
+Number of moves = 55
+Number of moves = 56
+Number of moves = 57
+Number of moves = 58
+Number of moves = 59
+Number of moves = 60
+Number of moves = 61
+Number of moves = 62
+Number of moves = 63
+Number of moves = 64
+Number of moves = 65
+Final number of moves = 65
+oBBooooooo
+oBBooooooo
+ooBooooooB
+oBBooooBoo
+oooooooooo
+oooBooBooB
+BBB BooBoo
+B  BooooBo
+  BooooBoB
+  BBBooooo
