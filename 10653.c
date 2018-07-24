@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 #include <vector>
 #include <algorithm>
 #include <cstdio>
@@ -51,41 +52,55 @@ void searchingExit(int row, int column, int number_of_moves){
 	
 	while (!moves.empty()){
 		
-		struct coords TMP = moves.front();
+		// struct coords TMP = moves.front();
+		// moves.pop();
+		
+		int row = moves.front().row;
+		int column = moves.front().column;
+		int number_of_moves = moves.front().number_of_moves;
+		map[row][column] = 'o';
+		system ("CLS");
+		printMap();
+		map[row][column] = ' ';
 		moves.pop();
 		
-		int row = TMP.row;
-		int column = TMP.column;
-		
-		map[row][column] = 'o';
-		cout << "Number of moves = " << TMP.number_of_moves << endl;
-		
 		if (row == destination_row && column == destination_column){
-			cout << "Final number of moves = " << TMP.number_of_moves << endl;
+			cout << number_of_moves << endl;
 		}
 		else {
+			
+			number_of_moves++;
+			
 			//Move UP
 			if (row-1 >=0 && !visited[row-1][column] && map[row-1][column] != 'B'){
-				moves.push(coords(row-1, column, number_of_moves++));
+				moves.push(coords(row-1, column, number_of_moves));
 				visited[row-1][column] = true;
+				// cout << "1. Number of moves = " << number_of_moves << endl;
+				// cout << "2. Number of moves = " << TMP.number_of_moves << endl << endl;
 			}
 			
 			//Move DOWN
 			if (row+1 < total_row && !visited[row+1][column] && map[row+1][column] != 'B'){
-				moves.push(coords(row+1, column, number_of_moves++));
+				moves.push(coords(row+1, column, number_of_moves));
 				visited[row+1][column] = true;
+				// cout << "1. Number of moves = " << number_of_moves << endl;
+				// cout << "2. Number of moves = " << TMP.number_of_moves << endl << endl;
 			}
 			
 			//Move LEFT
 			if (column-1 >=0 && !visited[row][column-1] && map[row][column-1] != 'B'){
-				moves.push(coords(row, column-1, number_of_moves++));
+				moves.push(coords(row, column-1, number_of_moves));
 				visited[row][column-1] = true;
+				// cout << "1. Number of moves = " << number_of_moves << endl;
+				// cout << "2. Number of moves = " << TMP.number_of_moves << endl << endl;
 			}
 			
 			//Moves RIGHT
 			if (column+1 < total_column && !visited[row][column+1] && map[row][column+1] != 'B'){
-				moves.push(coords(row, column+1, number_of_moves++));
+				moves.push(coords(row, column+1, number_of_moves));
 				visited[row][column+1] = true;
+				// cout << "1. Number of moves = " << number_of_moves << endl;
+				// cout << "2. Number of moves = " << TMP.number_of_moves << endl << endl;
 			}
 		}
 	}
@@ -95,14 +110,11 @@ void searchingExit(int row, int column, int number_of_moves){
 
 int main(void) {
 	
-	int start_row, start_column, bomb_row_counter, bomb_row, bomb_column, tmp;
-	string input;
+	int start_row, start_column, bomb_row_counter, bomb_row, bomb_column, number_of_bombs;
 	
 	while(true){
 		
 		cin >> total_row >> total_column;
-		// cout << "Total row: " << total_row << endl;
-		// cout << "Total column: " << total_column << endl;
 		if (total_row == 0 && total_column == 0){
 			break;
 		}
@@ -110,16 +122,10 @@ int main(void) {
 		clearMap();
 		
 		cin >> bomb_row_counter;
-		getline(cin, input); //ignore
-		
 		for (int i = 0; i < bomb_row_counter; i++){
-			getline(cin, input);
-			tmp = input.length();
-			for (int j = 2; j < tmp; j++){
-				if (input[j] != ' '){
-					bomb_row = input[0]-48;
-					bomb_column = input[j]-48;
-				}
+			cin >> bomb_row >> number_of_bombs;
+			for (int j = 0; j < number_of_bombs; j++){
+				cin >> bomb_column;
 				map[bomb_row][bomb_column] = 'B';
 			}
 		}
@@ -133,7 +139,7 @@ int main(void) {
 		
 		searchingExit(start_row, start_column, 0);
 		
-		printMap();
+		// printMap();
 		
 	}
 	
