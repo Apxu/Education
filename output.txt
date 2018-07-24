@@ -1,1 +1,37 @@
-18
+Number of cases: 1
+dip
+String length: 3
+lip
+String length: 3
+mad
+String length: 3
+map
+String length: 3
+maple
+String length: 5
+may
+String length: 3
+pad
+String length: 3
+pip
+String length: 3
+pod
+String length: 3
+pop
+String length: 3
+sap
+String length: 3
+sip
+String length: 3
+slice
+String length: 5
+slick
+String length: 5
+spice
+String length: 5
+stick
+String length: 5
+stock
+String length: 5
+1:spice stock
+2:may pod
