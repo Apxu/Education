@@ -18,15 +18,17 @@ string list[205];
 bool used[205];
 string start_word, end_word;
 int word_counter;
-bool debug = true;
+bool debug = false;
 
 bool is_suitable(string test_word, string word_from_list, int number_of_different_letters){
+	
+	int test_word_length = test_word.length();
 	
 	if(debug){
 		cout << test_word << " ? " << word_from_list;
 	}
 	
-	for (int i = 0; i < test_word.length(); i++){
+	for (int i = 0; i < test_word_length; i++){
 		
 		if (test_word[i] != word_from_list[i]){
 			number_of_different_letters++;
@@ -59,7 +61,6 @@ void clear_used (){
 void function(string test_word, int number_of_moves){
 	
 	int word_length = test_word.length();
-	char tmp;
 	
 	struct word {
 		word() : test_word(), number_of_moves() {}
@@ -87,7 +88,8 @@ void function(string test_word, int number_of_moves){
 			number_of_moves++;
 			
 			for (int j = 0; j < word_counter; j++){
-				if (list[j].length() == word_length && list[j] != start_word &&!used[j] && is_suitable(test_word, list[j], 0)){
+				int list_word_length = list[j].length();
+				if (list_word_length == word_length && list[j] != start_word &&!used[j] && is_suitable(test_word, list[j], 0)){
 					if(debug){
 						cout << "Push: " << list[j] << endl;
 					}
@@ -104,21 +106,29 @@ int main(void) {
 	
 	int tc_counter;
 	cin >> tc_counter;
-	istringstream instream;
+	stringstream ss;
 	string input, str;
 	
 	for (int i = 0; i < tc_counter; i++){
+		
+		if (debug){
+			cout << "Number of TC: " << tc_counter << endl;
+			cout << "Current TC: " << i+1 << endl;
+		}
 		
 		word_counter = 0;
 		
 		while (cin >> list[word_counter]){
 			
 			if (list[word_counter][0] == '*'){
+				if (debug){
+					cout << "Found * in a list; Break list input" << endl;
+				}
 				break;
 			}
 			
 			if (debug){
-				cout << list[word_counter] << endl;
+				cout << "Word from list:           " << list[word_counter] << endl;
 			}
 			
 			word_counter++;
@@ -141,19 +151,25 @@ int main(void) {
 		// }
 		
 		
-		instream.clear();
+		// ss.clear();
+		getline(cin, input); // Ignore 1 line
 		while(true){
 			
 			getline(cin, input);
-			instream.clear();
+			
+			if (debug){
+				cout << "Getline input: " << input << endl;
+			}
+			
+			ss.clear();
 			
 			if(input.empty()){
 				break;
 			}
 			else{
-				instream.str(input);
+				ss.str(input);
 			}
-			str >> start_word >> end_word;
+			ss >> start_word >> end_word;
 			
 			if(debug){
 				cout << endl << "Start: " << start_word << endl;
@@ -165,6 +181,10 @@ int main(void) {
 			function(start_word, 0);
 			cout << endl;
 			
+		}
+		
+		if (i+1 != tc_counter){
+			cout << endl;
 		}
 		
 		

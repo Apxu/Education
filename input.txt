@@ -1,48 +1,7 @@
-3
-
-dip
-lip
-mad
-map
-mapl
-maple
-may
-pad
-pip
-pod
-pop
-sap
-sip
-slice
-slick
-spice
-stick
-stock
-*
-spice slick
-may mad
-map map
-
-axe
-axi
-bxi
-cxi
-dxi
-dli
-dlx
-dls
-cls
-clx
-*
-axe axi
-axe clx
-axi cls
-axi dli
-dli cls
-cxi cls
-
-aa
-ab
-bb
-*
-aa bb
+0000 9999 1
+1000
+0000 9999 1
+0001
+5234 1212 3
+1023 0101 0001
+0 0 0
