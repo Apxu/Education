@@ -14,8 +14,8 @@
 #include <sstream>
 using namespace std;
 
-bool debug = true;
-int number_of_moves;
+bool debug = false;
+int return_number_of_moves;
 int button[10];
 bool visited [10000];
 
@@ -25,22 +25,82 @@ void clear_visited(){
 	}
 }
 
-void function (int current_number, int lock_number, int R){
+void function (int current_number, int lock_number, int R, int number_of_moves){
 	
-	number_of_moves = 0;
+	struct number {
+		number() : current_number(), number_of_moves(), prev_number() {}
+		number(int current_number, int number_of_moves, int prev_number)
+		: current_number(current_number), number_of_moves(number_of_moves), prev_number(prev_number) {}
+		
+		int current_number;
+		int number_of_moves;
+		int prev_number;
+	} ;
 	
-	while (true){
+	queue<number> combinations;
+	combinations.push(number(current_number, number_of_moves, 0));
+	
+	while (!combinations.empty()){
+		
+		int current_number = combinations.front().current_number;
+		int number_of_moves = combinations.front().number_of_moves;
+		int prev_number = combinations.front().prev_number;
+		combinations.pop();
+		
+		if(debug){
+			cout << "_______________________" << endl;
+			cout << "Currrent number: " << current_number << endl;
+			cout << "Lock number: " << lock_number << endl;
+			cout << "_______________________" << endl;
+		}
+		
 		if (current_number == lock_number){
-			cout << number_of_moves << endl;
+			if(debug){
+				cout << "WIN!" << endl;
+			}
+			return_number_of_moves = number_of_moves;
+			return;
 		}
-		
-		for (int i = 0; i < R; i++){
+		else {
 			
+			number_of_moves++;
+			int temp_number = current_number;
+			
+			for (int i = 0; i < R; i++){
+				
+				if(debug){
+					cout << "current_number = current_number + button[" << i << "]" << endl;
+					cout << "current_number = " << current_number << " + " << button[i] << endl;
+				}
+				
+				current_number = temp_number;
+				prev_number = current_number;
+				current_number = current_number + button[i];
+				current_number = current_number % 10000;
+				
+				if(debug){
+					cout << "current_number % 10000 = " << current_number << endl;
+				}
+				
+				if(debug){
+					cout << "Visited " << current_number << "? " << visited[current_number] << endl;
+				}
+				
+				if(!visited[current_number]){
+
+					visited[current_number] = true;
+					combinations.push(number(current_number, number_of_moves, prev_number));
+					
+					if(debug){
+						cout << "Previous number: " << prev_number << endl;
+						cout << "Number " << current_number << " pushes to queue" << endl;
+						cout << "Number of moves: " << number_of_moves << endl;
+					}
+					
+				}
+			}
 		}
-		
 	}
-	
-	
 	return;
 }
 
@@ -53,14 +113,14 @@ int main(void) {
 		
 		cin >> L >> U >> R;
 		
+		return_number_of_moves = 0;
+		
 		if (L == 0 && U == 0 && R ==0){
 			if(debug){
 				cout << "The end!" << endl;
 			}
 			break;
 		}
-		
-		visited[L] = true;
 		
 		if(debug){
 			printf("%04i %04i %i\n", L, U, R);
@@ -75,8 +135,15 @@ int main(void) {
 		}
 		
 		clear_visited();
+		visited[L] = true;
+		function(L, U, R, 0);
 		
-		cout << "Case " << case_number << ": "<< "#PLACEHOLDER#" << endl;
+		if (return_number_of_moves == 0){
+			cout << "Case " << case_number << ": Permanently Locked" << endl;
+		}
+		else {
+			cout << "Case " << case_number << ": "<< return_number_of_moves << endl;
+		}
 		
 		case_number++;
 		

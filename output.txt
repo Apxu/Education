@@ -1,12 +1,6 @@
-0000 9999 1
-Button #1: 1000
-Case 1: #PLACEHOLDER#
-0000 9999 1
-Button #1: 0001
-Case 2: #PLACEHOLDER#
-5234 1212 3
-Button #1: 1023
-Button #2: 0101
-Button #3: 0001
-Case 3: #PLACEHOLDER#
-The end!
+Minimal possible length of a trip is 4
+Minimal possible length of a trip is 7
+Minimal possible length of a trip is 9
+King Peter, you can't go now!
+Minimal possible length of a trip is 1
+Minimal possible length of a trip is 2
