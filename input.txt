@@ -1,10 +1,6 @@
-booster
-rooster
-roaster
-coasted
-roasted
-coastal
-postal
+aa
+ab
+ac
+bb
 
-booster roasted
-coastal postal
+ac bb

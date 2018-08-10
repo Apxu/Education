@@ -1,12 +1,3 @@
-Number of words: 7
-booster
-rooster
-roaster
-coasted
-roasted
-coastal
-postal
-Start: booster
-End: roasted
-Start: coastal
-End: postal
+ac
+ab
+bb
