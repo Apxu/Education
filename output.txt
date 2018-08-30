@@ -1,3 +1,3507 @@
-ac
-ab
-bb
+Start: 6 3
+End: 2 6
+Wall #1: 
+   30 - 33
+Wall #2: 
+   21 - 26
+Wall #3: 
+   40 - 44
+
+Test coords: 6 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 1
+
+Test coords: 6 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 5 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 6
+
+Test coords: 4 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 6
+
+Test coords: 3 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 6
+
+Test coords: 3 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 6
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 4 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 1
+
+Test coords: 3 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 2 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 1
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 6
+
+FINISH!
+NEENNWWWWNEEEEE
+Start: 1 1
+End: 6 1
+Wall #1: 
+   60 - 65
+Wall #2: 
+   50 - 55
+Wall #3: 
+   30 - 34
+
+Test coords: 1 1
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 1
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 1
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 2
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 3
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 6
+
+Test coords: 3 5
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 6
+
+Test coords: 4 5
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 6
+
+Test coords: 5 5
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 6
+
+Test coords: 5 4
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 6
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+
+Test coords: 4 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 3
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 6
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 2
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 5
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 1
+
+Test coords: 5 1
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+You can't pass to SOUTH
+
+Test coords: 6 4
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 1
+
+FINISH!
+SSEEEESSESWWWWW
+Start: 6 5
+End: 6 1
+Wall #1: 
+   13 - 53
+Wall #2: 
+   11 - 15
+Wall #3: 
+   11 - 61
+
+Test coords: 6 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 6 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 6 6
+
+Test coords: 4 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 6
+
+Test coords: 6 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 3 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 6
+
+Test coords: 5 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 6
+
+Test coords: 4 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 5 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 4
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+
+Test coords: 3 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 4 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 6
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 2 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 2 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 3
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 2 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 3 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 4 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 5 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 6 1
+
+FINISH!
+NNNNENWWWWWSSSSS
+Start: 6 2
+End: 2 6
+Wall #1: 
+   62 - 65
+Wall #2: 
+   30 - 34
+Wall #3: 
+   21 - 26
+
+Test coords: 6 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 1
+
+Test coords: 6 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 1
+
+Test coords: 5 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 4 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 6
+
+Test coords: 4 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 6
+
+Test coords: 3 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 6
+
+Test coords: 3 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 6
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 3 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 2 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 1
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 6
+
+FINISH!
+NNEEENWWWWNEEEEE
+Start: 4 3
+End: 1 6
+Wall #1: 
+   30 - 35
+Wall #2: 
+   21 - 26
+Wall #3: 
+   50 - 55
+
+Test coords: 4 3
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 3
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 2
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 4
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 2
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 4
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 1
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 4 5
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 1
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+
+Test coords: 5 5
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+You can't pass to SOUTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 6
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 5 6
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+
+Test coords: 3 6
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 6
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 5
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 4
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 6 1
+
+Test coords: 2 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 1
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 6
+
+Test coords: 1 6
+
+FINISH!
+EEENWWWWWNNEEEEE
+Start: 3 5
+End: 6 1
+Wall #1: 
+   26 - 66
+Wall #2: 
+   21 - 61
+Wall #3: 
+   03 - 53
+
+Test coords: 3 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 6
+
+Test coords: 1 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 6
+
+Test coords: 5 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 6
+
+Test coords: 1 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 6
+
+Test coords: 6 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 6
+
+Test coords: 6 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 6 6
+
+Test coords: 6 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 5 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 5 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 4 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 3
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 2 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 2 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 1 1
+
+Test coords: 3 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 4 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 5 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 6 1
+
+FINISH!
+SSSWWNNNNWWSSSS
+Start: 5 3
+End: 1 6
+Wall #1: 
+   30 - 34
+Wall #2: 
+   51 - 52
+Wall #3: 
+   11 - 16
+
+Test coords: 5 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: S
+Wall #2 is horizontal
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 3
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 2
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 4 4
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 1
+
+Test coords: 5 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 1
+Wall #1 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 4 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 6 1
+
+Test coords: 6 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 5 6
+
+Test coords: 3 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 6
+
+Test coords: 6 6
+
+Test coords: 2 5
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 6
+
+Test coords: 2 4
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 2 6
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+
+Test coords: 3 3
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 2 3
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 2
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 2 2
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is horizontal
+Test direction: W
+Wall #2 is horizontal
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 3 1
+
+Test coords: 2 1
+Wall #1 is horizontal
+Test direction: N
+Wall #2 is horizontal
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 1 1
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 2
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is horizontal
+Test direction: E
+Wall #2 is horizontal
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 6
+
+FINISH!
+NEENNWWWWNEEEEE
+Start: 6 6
+End: 1 4
+Wall #1: 
+   15 - 65
+Wall #2: 
+   04 - 54
+Wall #3: 
+   41 - 44
+
+Test coords: 6 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 6
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 1 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 5
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is horizontal
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 6 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 4
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 4
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 3
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 3
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 5 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+You can't pass to NORTH
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is horizontal
+Test direction: W
+
+Test coords: 6 1
+
+Test coords: 5 1
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+
+Test coords: 4 1
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 1
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 2
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 1
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is horizontal
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 2
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 3
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 1 1
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 2
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 3
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 4 4
+
+Test coords: 1 2
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 3 4
+
+Test coords: 1 3
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is horizontal
+Test direction: E
+
+Test coords: 2 4
+
+Test coords: 1 4
+
+FINISH!
+NNNNNWSSSSSWNWWWNNNNEEE
+Start: 1 1
+End: 3 6
+Wall #1: 
+   05 - 45
+Wall #2: 
+   01 - 51
+Wall #3: 
+   12 - 62
+
+Test coords: 1 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 2 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 3 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 4 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 5 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 6 1
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 6 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 5 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 4 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 3 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 2 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 1 2
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 1 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 1 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 1 5
+Wall #1 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 4 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 5
+Wall #1 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 5 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 5
+Wall #1 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 6 3
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 5
+Wall #1 is vertical
+Test direction: E
+You can't pass to EAST
+
+Test coords: 6 4
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 5
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 6 5
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+
+Test coords: 6 6
+
+Test coords: 4 6
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+
+Test coords: 3 6
+
+FINISH!
+SSSSSENNNNNESSSSEEENN
+Start: 5 5
+End: 4 1
+Wall #1: 
+   13 - 63
+Wall #2: 
+   02 - 52
+Wall #3: 
+   11 - 61
+
+Test coords: 5 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 6 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 5 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 6
+
+Test coords: 3 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 4 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 6
+
+Test coords: 6 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 6 6
+
+Test coords: 2 5
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 3 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 6
+
+Test coords: 1 5
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+Wall #1 is vertical
+Test direction: E
+Wall #2 is vertical
+Test direction: E
+Wall #3 is vertical
+Test direction: E
+
+Test coords: 2 4
+Wall #1 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 6
+
+Test coords: 1 4
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 6
+
+Test coords: 1 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 3
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 6 3
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 6 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 5 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 4 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 3 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 2 2
+Wall #1 is vertical
+Test direction: N
+Wall #2 is vertical
+Test direction: N
+Wall #3 is vertical
+Test direction: N
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+You can't pass to WEST
+
+Test coords: 1 2
+Wall #1 is vertical
+Test direction: W
+Wall #2 is vertical
+Test direction: W
+Wall #3 is vertical
+Test direction: W
+
+Test coords: 1 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 2 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 3 1
+Wall #1 is vertical
+Test direction: S
+Wall #2 is vertical
+Test direction: S
+Wall #3 is vertical
+Test direction: S
+
+Test coords: 4 1
+
+FINISH!
+NNNNWWSSSSSWNNNNNWSSS
