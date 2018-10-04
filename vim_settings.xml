@@ -1,0 +1,99 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" timestamp="1523025102759">
+        <mark key="'" line="62" column="32" />
+        <mark key="[" line="135" column="34" />
+        <mark key="]" line="138" column="28" />
+        <mark key="^" line="138" column="28" />
+        <mark key="." line="138" column="28" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/Main.java" timestamp="1523019184940">
+        <mark key="[" line="6" column="20" />
+        <mark key="]" line="6" column="21" />
+        <mark key="^" line="6" column="26" />
+        <mark key="." line="6" column="21" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/BotFrame.java" timestamp="1523019756521">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="92" column="22" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+      <jump line="54" column="26" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+      <jump line="55" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+      <jump line="56" column="36" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+      <jump line="62" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>0</text>
+      </register>
+      <register name="-" type="4">
+        <text>0</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDxzY3JlZW5zaG90XD4=</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgQnVmZmVyZWRJbWFnZSBzY3JlZW5zaG90ID0gcm9ib3QuY3JlYXRlU2NyZWVuQ2FwdHVyZShuZXcgUmVjdGFuZ2xlKFRvb2xraXQuZ2V0RGVmYXVsdFRvb2xraXQoKS5nZXRTY3JlZW5TaXplKCkpKTsK</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcm9ib3QubW91c2VNb3ZlKGZpZWxkQ29vcmRzLmdldEtleSgpICsgMzUgKyBjbGlja0Nvb3Jkcy5nZXRWYWx1ZSgpICogNDAsIGZpZWxkQ29vcmRzLmdldFZhbHVlKCkgKyAzNSArIGNsaWNrQ29vcmRzLmdldEtleSgpICogNDApOwogICAgICAgICAgICBtb3VzZUxlZnRDbGljaygpOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgUiArPSBzY3JlZW5zaG90LmdldAo=</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDxzY3JlZW5zaG90XD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDxzY3JlZW5zaG90XD4=</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxzY3JlZW5zaG90XD4=</entry>
+      </history-search>
+      <history-cmd>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
