@@ -1,15 +1,42 @@
-Case #1
-ad
-bcd
-be
-
-Case #2
-ooox
-ooxx
-oxox
-oxxx
-xoox
-xoxx
-xxox
-xxxx
-
+1st Jug: 3
+2nd Jug: 5
+Goal: 4
+fill A
+from A to B
+fill A
+from A to B
+from B to A
+Empty A
+from B to A
+from A to B
+Empty A
+from A to B
+from B to A
+fill B
+from B to A
+from A to B
+Empty A
+from A to B
+from B to A
+from A to B
+Empty A
+from A to B
+from B to A
+from A to B
+from B to A
+from A to B
+from B to A
+from A to B
+from B to A
+from A to B
+from B to A
+1st Jug: 5
+2nd Jug: 7
+Goal: 3
+fill A
+from A to B
+fill B
+from B to A
+from A to B
+from A to B
+from B to A
