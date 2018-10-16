@@ -14,52 +14,42 @@
 #include <sstream>
 using namespace std;
 
-vector<string> result;
+vector<string> vect[10];
 
-bool debug = false;
+bool debug = true;
 int tc_number, number_of_letters, letters_to_change;
-char for_replace[] = {'A', 'G', 'C', 'T'};
+char for_replace[] = {'A', 'C', 'G', 'T'};
 
-void recursion (string dna, int step, int current_letter){
+
+void generate_vectors (string dna, int length, int target_length){
 	
-	char temp_letter;
-	
-	if (step == letters_to_change){
-		if(debug){
-			cout << dna << endl;
-		}
-		result.push_back (dna);
+	if (length == target_length){
+		
+		vect[target_length].push_back (dna);
 		return;
+		
 	}
 	
-	for (int i = 0; i < number_of_letters; i++){
-		
-		temp_letter = dna[i];
-		dna[i] = for_replace[0];
-		recursion(dna, step+1, current_letter);
-		dna[i] = temp_letter;
-		
-		temp_letter = dna[i];
-		dna[i] = for_replace[1];
-		recursion(dna, step+1, current_letter);
-		dna[i] = temp_letter;
-		
-		temp_letter = dna[i];
-		dna[i] = for_replace[2];
-		recursion(dna, step+1, current_letter);
-		dna[i] = temp_letter;
-		
-		temp_letter = dna[i];
-		dna[i] = for_replace[3];
-		recursion(dna, step+1, current_letter);
-		dna[i] = temp_letter;
+	for (int i = 0; i < 4; i++){
+		generate_vectors(dna + for_replace[i], length+1, target_length);
 	}
+	
 }
+
+
 
 int main(void) {
 	
 	string dna, temp_string;
 	
+	for (int i = 0; i < 10; i++){
+		generate_vectors ("", 0, i);
+		
+		// for (int m = 0; m < vect[i].size(); m++){
+			// cout << vect[i][m] << endl;
+		// }
+	}
+
 	cin >> tc_number;
 	
 	for (int i = 0; i < tc_number; i++){
@@ -73,21 +63,20 @@ int main(void) {
 			cout << "Number of letters: " << number_of_letters << endl;
 			cout << "Letters to change: " << letters_to_change << endl;
 			cout << "Input string length: " << dna.length() << endl;
+			
+			for (int m = 0; m < vect[number_of_letters].size(); m++){
+				cout << vect[number_of_letters][m] << endl;
+			}
+			
 		}
 		
-		result.clear();
+		// sort( result.begin(), result.end() );
+		// result.erase( unique( result.begin(), result.end() ), result.end() );
+		// cout << result.size() << endl;
 		
-		for (int k = 0; k < number_of_letters; k++){
-			recursion (dna, 0, k);
-		}
-		
-		sort( result.begin(), result.end() );
-		result.erase( unique( result.begin(), result.end() ), result.end() );
-		cout << result.size() << endl;
-		
-		for (int m = 0; m < result.size(); m++){
-			cout << result[m] << endl;
-		}
+		// for (int m = 0; m < result.size(); m++){
+			// cout << result[m] << endl;
+		// }
 		
 	}
 	
