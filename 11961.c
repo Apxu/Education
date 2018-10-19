@@ -15,10 +15,11 @@
 using namespace std;
 
 vector<string> vect[10];
+vector<string> output;
 
-bool debug = true;
+bool debug = false;
 int tc_number, number_of_letters, letters_to_change;
-char for_replace[] = {'A', 'C', 'G', 'T'};
+char for_replace[] = {'T', 'G', 'C', 'A'};
 
 
 void generate_vectors (string dna, int length, int target_length){
@@ -37,17 +38,28 @@ void generate_vectors (string dna, int length, int target_length){
 }
 
 
+int diferences (string test_dna, string dna){
+	
+	int diff = 0;
+	
+	for (int i = 0; i < dna.length(); i++){
+		if (test_dna[i] != dna[i]){
+			diff++;
+		}
+	}
+	
+	return diff;
+	
+}
 
 int main(void) {
 	
 	string dna, temp_string;
+	int counter;
+	string tmp, out;
 	
 	for (int i = 0; i < 10; i++){
 		generate_vectors ("", 0, i);
-		
-		// for (int m = 0; m < vect[i].size(); m++){
-			// cout << vect[i][m] << endl;
-		// }
 	}
 
 	cin >> tc_number;
@@ -57,6 +69,9 @@ int main(void) {
 		cin >> number_of_letters >> letters_to_change;
 		
 		cin >> dna;
+		
+		counter = 0;
+		output.clear();
 		
 		if(debug){
 			cout << "Number of TC: " << tc_number << endl;
@@ -70,14 +85,23 @@ int main(void) {
 			
 		}
 		
-		// sort( result.begin(), result.end() );
-		// result.erase( unique( result.begin(), result.end() ), result.end() );
-		// cout << result.size() << endl;
+		for (int k = 0; k < vect[number_of_letters].size(); k++){
+			
+			if (diferences(vect[number_of_letters][k],dna) <= letters_to_change){
+				counter++;
+				tmp =  vect[number_of_letters][k];
+				// cout << tmp << endl;
+				output.push_back(tmp);
+			}
+		}
 		
-		// for (int m = 0; m < result.size(); m++){
-			// cout << result[m] << endl;
-		// }
+		cout << counter << endl;
+		
+		while(!output.empty()){
+			out = output.back();
+			cout << out << endl;
+			output.pop_back();
+		}
 		
 	}
-	
 }
