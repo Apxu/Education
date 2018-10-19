@@ -25,10 +25,8 @@ char for_replace[] = {'T', 'G', 'C', 'A'};
 void generate_vectors (string dna, int length, int target_length){
 	
 	if (length == target_length){
-		
 		vect[target_length].push_back (dna);
 		return;
-		
 	}
 	
 	for (int i = 0; i < 4; i++){
@@ -49,14 +47,12 @@ int diferences (string test_dna, string dna){
 	}
 	
 	return diff;
-	
 }
 
 int main(void) {
 	
 	string dna, temp_string;
 	int counter;
-	string tmp, out;
 	
 	for (int i = 0; i < 10; i++){
 		generate_vectors ("", 0, i);
@@ -82,24 +78,19 @@ int main(void) {
 			for (int m = 0; m < vect[number_of_letters].size(); m++){
 				cout << vect[number_of_letters][m] << endl;
 			}
-			
 		}
 		
 		for (int k = 0; k < vect[number_of_letters].size(); k++){
-			
 			if (diferences(vect[number_of_letters][k],dna) <= letters_to_change){
 				counter++;
-				tmp =  vect[number_of_letters][k];
-				// cout << tmp << endl;
-				output.push_back(tmp);
+				output.push_back(vect[number_of_letters][k]);
 			}
 		}
 		
 		cout << counter << endl;
 		
 		while(!output.empty()){
-			out = output.back();
-			cout << out << endl;
+			cout <<  output.back() << endl;
 			output.pop_back();
 		}
 		
