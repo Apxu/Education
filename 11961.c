@@ -14,7 +14,7 @@
 #include <sstream>
 using namespace std;
 
-vector<string> vect[10];
+vector<string> vect[13];
 vector<string> output;
 
 bool debug = false;
@@ -54,7 +54,7 @@ int main(void) {
 	string dna, temp_string;
 	int counter;
 	
-	for (int i = 0; i < 10; i++){
+	for (int i = 0; i < 11; i++){
 		generate_vectors ("", 0, i);
 	}
 
