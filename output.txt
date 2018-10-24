@@ -1,18 +1,2 @@
-Number of TC: 2
-Maze size: 3 3
-First move: 2
-Seconf move: 1
-Number of 'Water': 0
-0 0 0 
-0 0 0 
-0 0 0 
-Maze size: 4 4
-First move: 1
-Seconf move: 2
-Number of 'Water': 2
-1 'Water' coords: 3 3
-2 'Water' coords: 1 1
-0 0 0 0 
-0 1 0 0 
-0 0 0 0 
-0 0 0 1 
+Case 1: 
+Case 2: 

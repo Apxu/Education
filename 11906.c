@@ -14,30 +14,87 @@
 #include <sstream>
 using namespace std;
 
-bool debug = true;
+bool debug = false;
 bool maze[110][110];
-int row, column;
+int row, column, firstStep, secondStep;
 
 void print_maze (){
-    
     for (int k = 0; k < row; k++){
         for (int l = 0; l < column; l++){
             cout << maze[k][l] << " ";
         }
         cout << endl;
     }
-    
 }
 
 void recursion (int test_row, int test_column){
 	
+	if(debug){
+		print_maze();
+		cout << endl;
+	}
+
+	if ((test_row + firstStep) < row && (test_column + secondStep) < column){
+		if (!maze[test_row + firstStep][test_column + secondStep]){
+			maze[test_row + firstStep][test_column + secondStep] = true;
+			recursion(test_row + firstStep, test_column + secondStep);
+		}
+	}
 	
+	if ((test_row + secondStep) < row && (test_column + firstStep) < column){
+		if (!maze[test_row + secondStep][test_column + firstStep]){
+			maze[test_row + secondStep][test_column + firstStep] = true;
+			recursion(test_row + secondStep, test_column + firstStep);
+		}
+	}
 	
+	if ((test_row + firstStep) < row && (test_column - secondStep) >= 0){
+		if (!maze[test_row + firstStep][test_column - secondStep]){
+			maze[test_row + firstStep][test_column - secondStep] = true;
+			recursion(test_row + firstStep, test_column - secondStep);
+		}
+	}
+	
+	if ((test_row + secondStep) < row && (test_column - firstStep) >= 0){
+		if (!maze[test_row + secondStep][test_column - firstStep]){
+			maze[test_row + secondStep][test_column - firstStep] = true;
+			recursion(test_row + secondStep, test_column - firstStep);
+		}
+	}
+	
+	if ((test_row - firstStep) >= 0 && (test_column + secondStep) < column){
+		if (!maze[test_row - firstStep][test_column + secondStep]){
+			maze[test_row - firstStep][test_column + secondStep] = true;
+			recursion(test_row - firstStep, test_column + secondStep);
+		}
+	}
+	
+	if ((test_row - secondStep) >= 0 && (test_column + firstStep) < column){
+		if (!maze[test_row - secondStep][test_column + firstStep]){
+			maze[test_row - secondStep][test_column + firstStep] = true;
+			recursion(test_row - secondStep, test_column + firstStep);
+		}
+	}
+	
+	if ((test_row - firstStep) >= 0 && (test_column - secondStep) >= 0){
+		if (!maze[test_row - firstStep][test_column - secondStep]){
+			maze[test_row - firstStep][test_column - secondStep] = true;
+			recursion(test_row - firstStep, test_column - secondStep);
+		}
+	}
+	
+	if ((test_row - secondStep) >= 0 && (test_column - firstStep) >= 0){
+		if (!maze[test_row - secondStep][test_column - firstStep]){
+			maze[test_row - secondStep][test_column - firstStep] = true;
+			recursion(test_row - secondStep, test_column - firstStep);
+		}
+	}
+
 }
 
 int main(void) {
 	
-	int tc_number, M, N, W, x, y;
+	int tc_number, W, x, y;
 	
 	cin >> tc_number;
 	
@@ -53,13 +110,13 @@ int main(void) {
 			}
 		}
 		
-		cin >> row >> column >> M >> N;
+		cin >> row >> column >> firstStep >> secondStep;
 		cin >> W;
 		
 		if (debug){
 			cout << "Maze size: " << row << " " << column << endl;
-			cout << "First move: " << M << endl;
-			cout << "Seconf move: " << N << endl;
+			cout << "First move: " << firstStep << endl;
+			cout << "Seconf move: " << secondStep << endl;
 			cout << "Number of 'Water': " << W << endl;
 		}
 
@@ -74,9 +131,16 @@ int main(void) {
 			
 		}
 		
-		print_maze();
-		
+		// print_maze();
+		maze[0][0] = true;
 		recursion(0,0);
+		if(debug){
+			cout << "Last maze output: " << endl;
+			print_maze();
+			cout << endl << endl;
+		}
+		
+		cout << "Case " << i+1 << ": " << endl;
 		
 	}
 	
