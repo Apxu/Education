@@ -1,2 +1,2 @@
-Case 1: 
-Case 2: 
+Case 1: 8 0
+Case 2: 4 10

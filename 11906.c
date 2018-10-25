@@ -16,15 +16,57 @@ using namespace std;
 
 bool debug = false;
 bool maze[110][110];
-int row, column, firstStep, secondStep;
+bool visited[110][110];
+int row, column, firstStep, secondStep, even, odd;
 
 void print_maze (){
     for (int k = 0; k < row; k++){
         for (int l = 0; l < column; l++){
-            cout << maze[k][l] << " ";
+            cout << visited[k][l] << " ";
         }
         cout << endl;
     }
+}
+
+int possible_moves (int test_row, int test_column, int moves){
+	
+	if ((test_row + firstStep) < row && (test_column + secondStep) < column && !maze[test_row + firstStep][test_column + secondStep]){
+		moves++;
+	}
+	
+	if ((test_row + secondStep) < row && (test_column + firstStep) < column && !maze[test_row + secondStep][test_column + firstStep]){
+		moves++;
+	}
+	
+	if ((test_row + firstStep) < row && (test_column - secondStep) >= 0 && !maze[test_row + firstStep][test_column - secondStep]){
+		moves++;
+	}
+	
+	if ((test_row + secondStep) < row && (test_column - firstStep) >= 0 && !maze[test_row + secondStep][test_column - firstStep]){
+		moves++;
+	}
+	
+	if ((test_row - firstStep) >= 0 && (test_column + secondStep) < column && !maze[test_row - firstStep][test_column + secondStep]){
+		moves++;
+	}
+	
+	if ((test_row - secondStep) >= 0 && (test_column + firstStep) < column && !maze[test_row - secondStep][test_column + firstStep]){
+		moves++;
+	}
+	
+	if ((test_row - firstStep) >= 0 && (test_column - secondStep) >= 0 && !maze[test_row - firstStep][test_column - secondStep]){
+		moves++;
+	}
+	
+	if ((test_row - secondStep) >= 0 && (test_column - firstStep) >= 0 && !maze[test_row - secondStep][test_column - firstStep]){
+		moves++;
+	}
+	
+	if(debug){
+		cout << "Moves: " << moves << endl;
+	}
+	
+	return moves;
 }
 
 void recursion (int test_row, int test_column){
@@ -33,59 +75,66 @@ void recursion (int test_row, int test_column){
 		print_maze();
 		cout << endl;
 	}
+	
+	if(possible_moves(test_row, test_column, 0) % 2 == 0){
+		even++;
+	}
+	else {
+		odd++;
+	}
 
 	if ((test_row + firstStep) < row && (test_column + secondStep) < column){
-		if (!maze[test_row + firstStep][test_column + secondStep]){
-			maze[test_row + firstStep][test_column + secondStep] = true;
+		if (!visited[test_row + firstStep][test_column + secondStep]){
+			visited[test_row + firstStep][test_column + secondStep] = true;
 			recursion(test_row + firstStep, test_column + secondStep);
 		}
 	}
 	
 	if ((test_row + secondStep) < row && (test_column + firstStep) < column){
-		if (!maze[test_row + secondStep][test_column + firstStep]){
-			maze[test_row + secondStep][test_column + firstStep] = true;
+		if (!visited[test_row + secondStep][test_column + firstStep]){
+			visited[test_row + secondStep][test_column + firstStep] = true;
 			recursion(test_row + secondStep, test_column + firstStep);
 		}
 	}
 	
 	if ((test_row + firstStep) < row && (test_column - secondStep) >= 0){
-		if (!maze[test_row + firstStep][test_column - secondStep]){
-			maze[test_row + firstStep][test_column - secondStep] = true;
+		if (!visited[test_row + firstStep][test_column - secondStep]){
+			visited[test_row + firstStep][test_column - secondStep] = true;
 			recursion(test_row + firstStep, test_column - secondStep);
 		}
 	}
 	
 	if ((test_row + secondStep) < row && (test_column - firstStep) >= 0){
-		if (!maze[test_row + secondStep][test_column - firstStep]){
-			maze[test_row + secondStep][test_column - firstStep] = true;
+		if (!visited[test_row + secondStep][test_column - firstStep]){
+			visited[test_row + secondStep][test_column - firstStep] = true;
 			recursion(test_row + secondStep, test_column - firstStep);
 		}
 	}
 	
 	if ((test_row - firstStep) >= 0 && (test_column + secondStep) < column){
-		if (!maze[test_row - firstStep][test_column + secondStep]){
-			maze[test_row - firstStep][test_column + secondStep] = true;
+		if (!visited[test_row - firstStep][test_column + secondStep]){
+			visited[test_row - firstStep][test_column + secondStep] = true;
 			recursion(test_row - firstStep, test_column + secondStep);
 		}
 	}
 	
 	if ((test_row - secondStep) >= 0 && (test_column + firstStep) < column){
-		if (!maze[test_row - secondStep][test_column + firstStep]){
-			maze[test_row - secondStep][test_column + firstStep] = true;
+		if (!visited[test_row - secondStep][test_column + firstStep]){
+			visited[test_row - secondStep][test_column + firstStep] = true;
 			recursion(test_row - secondStep, test_column + firstStep);
 		}
 	}
 	
 	if ((test_row - firstStep) >= 0 && (test_column - secondStep) >= 0){
-		if (!maze[test_row - firstStep][test_column - secondStep]){
-			maze[test_row - firstStep][test_column - secondStep] = true;
+		if (!visited[test_row - firstStep][test_column - secondStep]){
+			visited[test_row - firstStep][test_column - secondStep] = true;
 			recursion(test_row - firstStep, test_column - secondStep);
 		}
 	}
 	
 	if ((test_row - secondStep) >= 0 && (test_column - firstStep) >= 0){
-		if (!maze[test_row - secondStep][test_column - firstStep]){
-			maze[test_row - secondStep][test_column - firstStep] = true;
+		if (!visited[test_row - secondStep][test_column - firstStep]){
+			visited[test_row - secondStep][test_column - firstStep] = true;
 			recursion(test_row - secondStep, test_column - firstStep);
 		}
 	}
@@ -107,8 +156,12 @@ int main(void) {
 		for (int k = 0; k < 110; k++){
 			for (int l = 0; l < 110; l++){
 				maze[k][l] = false;
+				visited[k][l] = false;
 			}
 		}
+		
+		even = 0;
+		odd = 0;
 		
 		cin >> row >> column >> firstStep >> secondStep;
 		cin >> W;
@@ -124,6 +177,7 @@ int main(void) {
 			
 			cin >> x >> y;
 			maze[x][y] = true;
+			visited[x][y] = true;
 			
 			if(debug){
 				cout << k+1 << " 'Water' coords: " << x << " " << y << endl;
@@ -132,7 +186,7 @@ int main(void) {
 		}
 		
 		// print_maze();
-		maze[0][0] = true;
+		visited[0][0] = true;
 		recursion(0,0);
 		if(debug){
 			cout << "Last maze output: " << endl;
@@ -140,7 +194,7 @@ int main(void) {
 			cout << endl << endl;
 		}
 		
-		cout << "Case " << i+1 << ": " << endl;
+		cout << "Case " << i+1 << ": " << even << " " << odd << endl;
 		
 	}
 	
