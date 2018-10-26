@@ -17,6 +17,7 @@ using namespace std;
 bool debug = false;
 bool maze[110][110];
 bool visited[110][110];
+bool checked[110][110];
 int row, column, firstStep, secondStep, even, odd;
 
 void print_maze (){
@@ -28,38 +29,70 @@ void print_maze (){
     }
 }
 
+void clear_checked (){
+	   for (int k = 0; k < row; k++){
+        for (int l = 0; l < column; l++){
+            checked[k][l] = false;
+        }
+    }
+}
+
 int possible_moves (int test_row, int test_column, int moves){
 	
 	if ((test_row + firstStep) < row && (test_column + secondStep) < column && !maze[test_row + firstStep][test_column + secondStep]){
-		moves++;
+		if (!checked[test_row + firstStep][test_column + secondStep]){
+			moves++;
+			checked[test_row + firstStep][test_column + secondStep] = true;
+		}
 	}
 	
 	if ((test_row + secondStep) < row && (test_column + firstStep) < column && !maze[test_row + secondStep][test_column + firstStep]){
-		moves++;
+		if (!checked[test_row + secondStep][test_column + firstStep]){
+			moves++;
+			checked[test_row + secondStep][test_column + firstStep] = true;
+		}
 	}
 	
 	if ((test_row + firstStep) < row && (test_column - secondStep) >= 0 && !maze[test_row + firstStep][test_column - secondStep]){
-		moves++;
+		if(!checked[test_row + firstStep][test_column - secondStep]){
+			checked[test_row + firstStep][test_column - secondStep] = true;
+			moves++;
+		}
 	}
 	
 	if ((test_row + secondStep) < row && (test_column - firstStep) >= 0 && !maze[test_row + secondStep][test_column - firstStep]){
-		moves++;
+		if(!checked[test_row + secondStep][test_column - firstStep]){
+			checked[test_row + secondStep][test_column - firstStep] = true;
+			moves++;
+		}
 	}
 	
 	if ((test_row - firstStep) >= 0 && (test_column + secondStep) < column && !maze[test_row - firstStep][test_column + secondStep]){
-		moves++;
+		if(!checked[test_row - firstStep][test_column + secondStep]){
+			checked[test_row - firstStep][test_column + secondStep] = true;
+			moves++;
+		}
 	}
 	
 	if ((test_row - secondStep) >= 0 && (test_column + firstStep) < column && !maze[test_row - secondStep][test_column + firstStep]){
-		moves++;
+		if(!checked[test_row - secondStep][test_column + firstStep]){
+			checked[test_row - secondStep][test_column + firstStep] = true;
+			moves++;
+		}
 	}
 	
 	if ((test_row - firstStep) >= 0 && (test_column - secondStep) >= 0 && !maze[test_row - firstStep][test_column - secondStep]){
-		moves++;
+		if(!checked[test_row - firstStep][test_column - secondStep]){
+			checked[test_row - firstStep][test_column - secondStep] = true;
+			moves++;
+		}
 	}
 	
 	if ((test_row - secondStep) >= 0 && (test_column - firstStep) >= 0 && !maze[test_row - secondStep][test_column - firstStep]){
-		moves++;
+		if(!checked[test_row - secondStep][test_column - firstStep]){
+			checked[test_row - secondStep][test_column - firstStep] = true;
+			moves++;
+		}
 	}
 	
 	if(debug){
@@ -75,6 +108,8 @@ void recursion (int test_row, int test_column){
 		print_maze();
 		cout << endl;
 	}
+	
+	clear_checked();
 	
 	if(possible_moves(test_row, test_column, 0) % 2 == 0){
 		even++;
@@ -157,6 +192,7 @@ int main(void) {
 			for (int l = 0; l < 110; l++){
 				maze[k][l] = false;
 				visited[k][l] = false;
+				checked[k][l] = false;
 			}
 		}
 		
