@@ -16,7 +16,9 @@ using namespace std;
 
 char letter[30];
 string letter_code[30];
-int tc_counter, number_of_chars;
+vector< pair <char,string> > coded_letters;
+
+int tc_counter, number_of_chars, output_counter;
 string coded_string;
 
 bool debug = false;
@@ -35,23 +37,20 @@ bool prefix(string test_string){
 void recursion(string test_string, string output, string TMP_output){
 	
 	if (test_string.length() == coded_string.length()){
+		output_counter++;
 		if(debug){
 			cout << output << " - " << TMP_output << endl;
+			cout << "RETURN" << endl;
 		}
 		else{
 			cout << output << endl;
+			return;
 		}
-		
-		if(debug){
-			cout << "RETURN" << endl;
-		}
-		
-		return;
 	}
 	
 	for (int i = 0; i < number_of_chars; i++){
 		
-		string temp_string = "0";
+		pair <char,string> test_letter = coded_letters[i];
 		
 		if(debug){
 			cout << "Test string: " << test_string << endl;
@@ -59,14 +58,14 @@ void recursion(string test_string, string output, string TMP_output){
 			cout << "Coded string: " << coded_string << endl;
 		}
 		
-		if(prefix(test_string + letter_code[i])){
+		if((prefix(test_string + coded_letters[i].second)) && (output_counter < 100)){
 			
-			recursion(test_string + letter_code[i], output + letter[i], TMP_output + letter_code[i] + ' ');
+			recursion(test_string + coded_letters[i].second, output + coded_letters[i].first, TMP_output + letter_code[i] + ' ');
 			
 		}
-		else if(prefix(test_string + '0' + letter_code[i])){
+		else if(prefix(test_string + '0' + coded_letters[i].second) && output_counter < 100){
 			
-			recursion(test_string + '0' + letter_code[i], output + letter[i], TMP_output + '0' + letter_code[i] + ' ');
+			recursion(test_string + '0' + coded_letters[i].second, output + coded_letters[i].first, TMP_output + '0' + letter_code[i] + ' ');
 			
 		}
 		
@@ -84,6 +83,9 @@ int main(void) {
 		
 		cin >> number_of_chars;
 		
+		coded_letters.clear();
+		output_counter = 0;
+		
 		if(number_of_chars == 0){
 			break;
 		}
@@ -91,8 +93,11 @@ int main(void) {
 		for (int i = 0; i < number_of_chars; i++){
 			
 			cin >> letter[i] >> letter_code[i];
+			coded_letters.push_back( make_pair (letter[i],letter_code[i]) );
 			
 		}
+		
+		sort(coded_letters.begin(), coded_letters.end());
 		
 		cin >> coded_string;
 		
