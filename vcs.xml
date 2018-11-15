@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/Apxu/Education" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.evolutiongaming.com/qa/test/find_file/sandbox/epakers/BJS-800-bot" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\sbunin\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\" />
   </component>
 </application>

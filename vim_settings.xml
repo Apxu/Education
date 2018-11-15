@@ -3,8 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1538638312918">
+      <file name="/Dummy.txt" timestamp="1538638464715">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" timestamp="1523025102759">
         <mark key="'" line="62" column="32" />
@@ -33,8 +35,8 @@
       <jump line="62" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>0</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">aHR0cHM6Ly9naXRodWIuY29tL0FweHUvRWR1Y2F0aW9uCg==</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -46,31 +48,31 @@
         <text encoding="base64">ICAgICAgICAgICAgQnVmZmVyZWRJbWFnZSBzY3JlZW5zaG90ID0gcm9ib3QuY3JlYXRlU2NyZWVuQ2FwdHVyZShuZXcgUmVjdGFuZ2xlKFRvb2xraXQuZ2V0RGVmYXVsdFRvb2xraXQoKS5nZXRTY3JlZW5TaXplKCkpKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aHR0cHM6Ly9naXRodWIuY29tL0FweHUvRWR1Y2F0aW9uCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcm9ib3QubW91c2VNb3ZlKGZpZWxkQ29vcmRzLmdldEtleSgpICsgMzUgKyBjbGlja0Nvb3Jkcy5nZXRWYWx1ZSgpICogNDAsIGZpZWxkQ29vcmRzLmdldFZhbHVlKCkgKyAzNSArIGNsaWNrQ29vcmRzLmdldEtleSgpICogNDApOwogICAgICAgICAgICBtb3VzZUxlZnRDbGljaygpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcm9ib3QubW91c2VNb3ZlKGZpZWxkQ29vcmRzLmdldEtleSgpICsgMzUgKyBjbGlja0Nvb3Jkcy5nZXRWYWx1ZSgpICogNDAsIGZpZWxkQ29vcmRzLmdldFZhbHVlKCkgKyAzNSArIGNsaWNrQ29vcmRzLmdldEtleSgpICogNDApOwogICAgICAgICAgICBtb3VzZUxlZnRDbGljaygpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgUiArPSBzY3JlZW5zaG90LmdldAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
