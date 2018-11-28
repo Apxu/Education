@@ -15,14 +15,24 @@
         <mark key="^" line="138" column="28" />
         <mark key="." line="138" column="28" />
       </file>
-      <file name="/sbtShell" timestamp="1543406788592">
+      <file name="/sbtShell" timestamp="1543408637761">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/fixtures/tables/DhpTableSettings.scala" timestamp="1543408580755" />
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/Main.java" timestamp="1523019184940">
         <mark key="[" line="6" column="20" />
         <mark key="]" line="6" column="21" />
         <mark key="^" line="6" column="26" />
         <mark key="." line="6" column="21" />
+      </file>
+      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/main/scala/domain/DhpPlayerHandSide.scala" timestamp="1543407915510">
+        <mark key="[" line="6" column="1" />
+      </file>
+      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" timestamp="1543409249715">
+        <mark key="[" line="603" column="50" />
+        <mark key="]" line="603" column="50" />
+        <mark key="^" line="605" column="25" />
+        <mark key="." line="603" column="50" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/BotFrame.java" timestamp="1523019756521">
         <mark key="[" line="22" column="0" />
@@ -36,13 +46,14 @@
       <jump line="55" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
       <jump line="56" column="36" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
       <jump line="62" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
+      <jump line="7" column="0" filename="$USER_HOME$/workspaces/TestyMcTestface/src/main/scala/domain/DhpPlayerHandSide.scala" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">aHR0cHM6Ly9naXRodWIuY29tL0FweHUvRWR1Y2F0aW9uCg==</text>
+      <register name="&quot;" type="4">
+        <text>10,000</text>
       </register>
       <register name="-" type="4">
-        <text>0</text>
+        <text>10,000</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzY3JlZW5zaG90XD4=</text>
@@ -104,6 +115,15 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed C</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
