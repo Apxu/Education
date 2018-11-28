@@ -15,10 +15,9 @@
         <mark key="^" line="138" column="28" />
         <mark key="." line="138" column="28" />
       </file>
-      <file name="/sbtShell" timestamp="1543408637761">
+      <file name="/sbtShell" timestamp="1543409442415">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/fixtures/tables/DhpTableSettings.scala" timestamp="1543408580755" />
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/Main.java" timestamp="1523019184940">
         <mark key="[" line="6" column="20" />
         <mark key="]" line="6" column="21" />
@@ -28,11 +27,11 @@
       <file name="$USER_HOME$/workspaces/TestyMcTestface/src/main/scala/domain/DhpPlayerHandSide.scala" timestamp="1543407915510">
         <mark key="[" line="6" column="1" />
       </file>
-      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" timestamp="1543409249715">
-        <mark key="[" line="603" column="50" />
-        <mark key="]" line="603" column="50" />
-        <mark key="^" line="605" column="25" />
-        <mark key="." line="603" column="50" />
+      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" timestamp="1543410171146">
+        <mark key="[" line="622" column="6" />
+        <mark key="]" line="622" column="6" />
+        <mark key="^" line="616" column="25" />
+        <mark key="." line="622" column="6" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/BotFrame.java" timestamp="1523019756521">
         <mark key="[" line="22" column="0" />
@@ -50,10 +49,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>10,000</text>
+        <text>player bets 500 on LeftBonus</text>
       </register>
       <register name="-" type="4">
-        <text>10,000</text>
+        <text>player bets 500 on LeftBonus</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzY3JlZW5zaG90XD4=</text>
