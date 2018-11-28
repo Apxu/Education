@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1543407594245">
+      <file name="/Dummy.txt" timestamp="1543412411950">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -27,11 +27,12 @@
       <file name="$USER_HOME$/workspaces/TestyMcTestface/src/main/scala/domain/DhpPlayerHandSide.scala" timestamp="1543407915510">
         <mark key="[" line="6" column="1" />
       </file>
-      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" timestamp="1543410171146">
-        <mark key="[" line="622" column="6" />
-        <mark key="]" line="622" column="6" />
-        <mark key="^" line="616" column="25" />
-        <mark key="." line="622" column="6" />
+      <file name="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" timestamp="1543412813626">
+        <mark key="'" line="560" column="30" />
+        <mark key="[" line="603" column="0" />
+        <mark key="]" line="603" column="0" />
+        <mark key="^" line="560" column="29" />
+        <mark key="." line="603" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/BotFrame.java" timestamp="1523019756521">
         <mark key="[" line="22" column="0" />
@@ -46,13 +47,14 @@
       <jump line="56" column="36" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
       <jump line="62" column="32" filename="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" />
       <jump line="7" column="0" filename="$USER_HOME$/workspaces/TestyMcTestface/src/main/scala/domain/DhpPlayerHandSide.scala" />
+      <jump line="560" column="30" filename="$USER_HOME$/workspaces/TestyMcTestface/src/test/scala/tests/dhp/DhpBettingSpec.scala" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>player bets 500 on LeftBonus</text>
+        <text encoding="base64">ICAgICAgZXZlbnR1YWxseSB7CiAgICAgICAgcGxheWVyLnZhbHVlT24oTGVmdEJvbnVzKSBtdXN0QmUgMTUwCiAgICAgIH0=</text>
       </register>
       <register name="-" type="4">
-        <text>player bets 500 on LeftBonus</text>
+        <text encoding="base64">ICAgICAgZXZlbnR1YWxseSA=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxzY3JlZW5zaG90XD4=</text>
@@ -60,32 +62,32 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgQnVmZmVyZWRJbWFnZSBzY3JlZW5zaG90ID0gcm9ib3QuY3JlYXRlU2NyZWVuQ2FwdHVyZShuZXcgUmVjdGFuZ2xlKFRvb2xraXQuZ2V0RGVmYXVsdFRvb2xraXQoKS5nZXRTY3JlZW5TaXplKCkpKTsK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">aHR0cHM6Ly9naXRodWIuY29tL0FweHUvRWR1Y2F0aW9uCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgICAgZXZlbnR1YWxseSB7CiAgICAgICAgcGxheWVyLnZhbHVlT24oTGVmdEJvbnVzKSBtdXN0QmUgMTUwCiAgICAgIH0=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgICAgZXZlbnR1YWxseSB7CiAgICAgICAgcGxheWVyLnZhbHVlT24oTGVmdEFudGUpIG11c3RCZSAxNTAKICAgICAgfQ==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcm9ib3QubW91c2VNb3ZlKGZpZWxkQ29vcmRzLmdldEtleSgpICsgMzUgKyBjbGlja0Nvb3Jkcy5nZXRWYWx1ZSgpICogNDAsIGZpZWxkQ29vcmRzLmdldFZhbHVlKCkgKyAzNSArIGNsaWNrQ29vcmRzLmdldEtleSgpICogNDApOwogICAgICAgICAgICBtb3VzZUxlZnRDbGljaygpOwo=</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiAgICAgIGV2ZW50dWFsbHkgew==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      <register name="4" type="4">
+        <text encoding="base64">IGV2ZW50dWFsbHkgewogICAgICAgIHBsYXllci52YWx1ZU9uKFJpZ2h0QW50ZSkKICAgICAgfQ==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">aHR0cHM6Ly9naXRodWIuY29tL0FweHUvRWR1Y2F0aW9uCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcm9ib3QubW91c2VNb3ZlKGZpZWxkQ29vcmRzLmdldEtleSgpICsgMzUgKyBjbGlja0Nvb3Jkcy5nZXRWYWx1ZSgpICogNDAsIGZpZWxkQ29vcmRzLmdldFZhbHVlKCkgKyAzNSArIGNsaWNrQ29vcmRzLmdldEtleSgpICogNDApOwogICAgICAgICAgICBtb3VzZUxlZnRDbGljaygpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
