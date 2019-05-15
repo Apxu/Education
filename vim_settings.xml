@@ -1,12 +1,15 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="/Dummy.txt" timestamp="1557902106837">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/workspaces/tablesettingsupdater/src/test/java/EvoTestEducation/TableEdit.java" timestamp="1557902836714">
+        <mark key="[" line="34" column="91" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/DiamondDashBot.java" timestamp="1548337453197">
         <mark key="'" line="62" column="32" />
@@ -15,7 +18,7 @@
         <mark key="^" line="138" column="28" />
         <mark key="." line="138" column="28" />
       </file>
-      <file name="/sbtShell" timestamp="1543409442415">
+      <file name="/sbtShell" timestamp="1557902906200">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/DiamondDash/src/com/evolutiongaming/Main.java" timestamp="1548341615750">
@@ -65,6 +68,9 @@
       </register>
       <register name="1" type="2">
         <text encoding="base64">REhQLTQyIEFkZGVkIGNoZWNrcyBmb3IgVGFibGUgTUlOIGFuZCBNQVggbGltaXRzOwo=</text>
+      </register>
+      <register name="q" type="4">
+        <text />
       </register>
       <register name="2" type="4">
         <text encoding="base64">dGVzdCgiUGxheWVyIGNhbid0IGJldCBtb3JlIHRoYW4gVEFCTEUgTUFYIExJTUlUIil7CiAgICBmb3IgewogICAgICBjYXNpbm8gPC0gbmV3IENhc2lub1NldHRpbmdzRml4dHVyZShuZXR3b3JrID0gQ2FzaW5vU2V0dGluZ3NGaXh0dXJlLm5ldHdvcmtGb3JHYW1lKQogICAgICBnYW1lVGFibGUgPC0gbmV3IEdhbWVUYWJsZUZpeHR1cmUoR2FtZVR5cGUuREhQLCBjYXNpbm8uaWQsCiAgICAgICAgRGhwVGFibGVTZXR0aW5ncygKICAgICAgICAgIHRhYmxlX2JldF9tYXhfbGltaXQ9MzAwLAogICAgICAgICAgYW50ZV9iZXRfbWF4PTEwMDAsCiAgICAgICAgICBib251c19iZXRfbWF4PTEwMDAKICAgICAgICApKQogICAgICBnYW1lUGxheWVyIDwtIG5ldyBQbGF5ZXJGaXh0dXJlKGNhc2luby5pZCwgYmFsYW5jZSA9IDUwMDApCiAgICAgIGRlYWxlciA8LSBEaHBEZWFsZXIoZ2FtZVRhYmxlKQogICAgICBfIDwtIG5ldyBQbGF5ZXJTZXNzaW9uRml4dHVyZShjYXNpbm8sIGdhbWVUYWJsZS5pZCwgZ2FtZVBsYXllci5sb2dpbikKICAgIH0gewogICAgICB2YWwgcGxheWVyID0gRGhwUGFnZS5pbml0CgogICAgICAvL0JldHRpbmcgc3RhcnRlZAogICAgICBldmVudHVhbGx5IHsKICAgICAgICBwbGF5ZXIudHJhZmZpY0xpZ2h0IG11c3RCZSBXYWl0aW5nRm9yQmV0cwogICAgICB9CgogICAgICAvL1BsYXllciBiZXQgdmFsaWQgYmV0cyB0byByZWFjaCBtYXggdGFibGUgbGltaXQKICAgICAgcGxheWVyIGJldHMgKDEwMCwgMjUpIG9uIExlZnRBbnRlCiAgICAgIHBsYXllciBiZXRzIDI1IG9uIFJpZ2h0QW50ZQogICAgICBwbGF5ZXIgYmV0cyAoMTAwLCAyNSwgMjUpIG9uIExlZnRCb251cwoKICAgICAgLy9QbGF5ZXIgY2FuJ3QgYmV0IExFRlQgQU5URSBtb3JlIHRoYW4gdGFibGUgbWF4IGxpbWl0CiAgICAgIHBsYXllciBiZXRzIDAuMSBvbiBMZWZ0QW50ZQogICAgICBldmVudHVhbGx5IHsKICAgICAgICBwbGF5ZXIudG9vbHRpcCBtdXN0QmUgIk1BWElNVU0gVEFCTEUgQkVUOiAzMDAiCiAgICAgIH0KICAgICAgcGxheWVyLnZhbHVlT24oTGVmdEFudGUpIG11c3RCZSAxMjUKCiAgICAgIC8vUGxheWVyIGNhbid0IGJldCBMRUZUIEJPTlVTIG1vcmUgdGhhbiB0YWJsZSBtYXggbGltaXQKICAgICAgcGxheWVyIGJldHMgMC4xIG9uIExlZnRCb251cwogICAgICBldmVudHVhbGx5IHsKICAgICAgICBwbGF5ZXIudG9vbHRpcCBtdXN0QmUgIk1BWElNVU0gVEFCTEUgQkVUOiAzMDAiCiAgICAgIH0KICAgICAgcGxheWVyLnZhbHVlT24oTGVmdEJvbnVzKSBtdXN0QmUgMTUwCgogICAgICAvL1BsYXllciBjYW47dCBiZXQgb24gUklHSFQgQU5URSBtb3JlIHRoYW4gdGFibGUgbWF4IGxpbWl0CiAgICAgIHBsYXllciBiZXRzIDAuMSBvbiBSaWdodEFudGUKICAgICAgZXZlbnR1YWxseSB7CiAgICAgICAgcGxheWVyLnRvb2x0aXAgbXVzdEJlICJNQVhJTVVNIFRBQkxFIEJFVDogMzAwIgogICAgICB9CiAgICAgIHBsYXllci52YWx1ZU9uKFJpZ2h0QW50ZSkgbXVzdEJlIDI1CgogICAgICAvL1BsYXllciBjYW4ndCBiZXQgb24gTEVGVCBCT05VUyBtb3JlIHRoYW4gdGFibGUgbWF4IGxpbWl0CiAgICAgIHBsYXllciBiZXRzIDAuMSBvbiBSaWdodEJvbnVzCiAgICAgIGV2ZW50dWFsbHkgewogICAgICAgIHBsYXllci50b29sdGlwIG11c3RCZSAiTUFYSU1VTSBUQUJMRSBCRVQ6IDMwMCIKICAgICAgfQogICAgICBwbGF5ZXIudmFsdWVPbihSaWdodEJvbnVzKSBtdXN0QmUgMAoKICAgICAgZGVhbGVyLmNsb3Nlc0JldHMoKQogICAgICBldmVudHVhbGx5IHsKICAgICAgICBwbGF5ZXIudHJhZmZpY0xpZ2h0IG11c3RCZSBCZXRzQWNjZXB0ZWQKICAgICAgfQoKICAgICAgcGxheWVyLnRvdGFsQmV0IG11c3RCZSAzMDAKICAgICAgcGxheWVyLmJhbGFuY2UgbXVzdEJlIDQ3MDAKICAgIH0KICB9</text>
@@ -129,6 +135,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
